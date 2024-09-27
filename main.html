@@ -4,13 +4,54 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	 <style>
+    /* Main container */
+    .container {
+      width: 400px;
+      padding: 20px;
+      border: 2px solid black;
+      border-radius: 10px;
+      text-align: center; /* Centering the content */
+      margin: 0 auto; /* Centering the container on the page */
+      background-color: #f9f9f9;
+    }
+
+    /* Each block (red, green, yellow) */
+    .block {
+      width: 100px;
+      height: 100px;
+      display: inline-block; /* Make the blocks inline */
+      border-radius: 50%; /* Make the blocks circular */
+      margin: 10px;
+    }
+
+    /* Colors for each block */
+    .red {
+      background-color: red;
+    }
+
+    .green {
+      background-color: green;
+    }
+
+    .yellow {
+      background-color: yellow;
+    }
+  </style>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
+
+  <!-- Main container holding the blocks -->
+  <div class="container">
+    <div class="block red"></div>
+    <div class="block green"></div>
+    <div class="block yellow"></div>
+  </div>
+
     <script type="text/javascript" src="./script.js">
 </script>
-
 </body>
 
 </html>
